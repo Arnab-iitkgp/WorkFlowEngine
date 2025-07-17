@@ -1,0 +1,32 @@
+[
+  {
+    "id": "e82dff0a-0034-47f6-bd56-d9812ed7deca",
+    "definitionId": "dd769a14-9bb1-46c0-a712-e379595c4436",
+    "currentStateId": "completed",
+    "history": [
+      {
+        "actionId": "validate",
+        "actionName": "Validate",
+        "fromStateId": "created",
+        "toStateId": "validated",
+        "executedAt": "2025-07-17T20:43:56.1158301Z"
+      },
+      {
+        "actionId": "ship",
+        "actionName": "Ship",
+        "fromStateId": "validated",
+        "toStateId": "shipped",
+        "executedAt": "2025-07-17T21:25:59.3286028Z"
+      },
+      {
+        "actionId": "complete",
+        "actionName": "Complete",
+        "fromStateId": "shipped",
+        "toStateId": "completed",
+        "executedAt": "2025-07-17T21:27:48.789302Z"
+      }
+    ],
+    "createdAt": "2025-07-17T20:33:13.0914524Z",
+    "lastUpdated": "2025-07-17T21:27:48.7893011Z"
+  }
+]
