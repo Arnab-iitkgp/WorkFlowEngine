@@ -1,6 +1,6 @@
 namespace WorkflowEngine.Models;
 
-public class Action
+public class Action //for dispatching actions in workflow instances
 {
     public string Id { get; set; } = string.Empty;
     public string Name { get; set; } = string.Empty;

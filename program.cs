@@ -30,7 +30,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("AllowAll");
 
-// Workflow Definition endpoints
+// Workflow Definition endpoints //creating workflos
 app.MapPost("/api/definitions", (WorkflowService service, CreateDefinitionRequest request) =>
 {
     var response = service.CreateDefinitionAsync(request);
@@ -43,7 +43,7 @@ app.MapGet("/api/definitions/{id}", (WorkflowService service, string id) =>
     return response.Success ? Results.Ok(response) : Results.NotFound(response);
 });
 
-app.MapGet("/api/definitions", (WorkflowService service) =>
+app.MapGet("/api/definitions", (WorkflowService service) => //for all defntnions
 {
     var response = service.GetAllDefinitionsAsync();
     return Results.Ok(response);
@@ -54,6 +54,11 @@ app.MapPost("/api/instances", (WorkflowService service, string definitionId) =>
 {
     var response = service.StartInstanceAsync(definitionId);
     return response.Success ? Results.Created($"/api/instances/{response.Data!.Id}", response) : Results.BadRequest(response);
+});
+app.MapPost("/api/instances/{id}/execute", (WorkflowService service, string id, ExecuteActionRequest request) =>
+{
+    var response = service.ExecuteActionAsync(id, request.ActionName);
+    return response.Success ? Results.Ok(response) : Results.BadRequest(response);
 });
 
 app.MapGet("/api/instances/{id}", (WorkflowService service, string id) =>
@@ -74,16 +79,10 @@ app.MapGet("/api/definitions/{definitionId}/instances", (WorkflowService service
     return Results.Ok(response);
 });
 
-app.MapPost("/api/instances/{id}/execute", (WorkflowService service, string id, ExecuteActionRequest request) =>
-{
-    var response = service.ExecuteActionAsync(id, request.ActionName);
-    return response.Success ? Results.Ok(response) : Results.BadRequest(response);
-});
 
-// Health check endpoint
-app.MapGet("/health", () => Results.Ok(new { status = "healthy", timestamp = DateTime.UtcNow }));
 
-// Root endpoint with API documentation
+
+
 app.MapGet("/", () => Results.Ok(new
 {
     message = "Configurable Workflow Engine API",

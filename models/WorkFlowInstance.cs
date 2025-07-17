@@ -1,6 +1,6 @@
 
 namespace WorkflowEngine.Models;
-
+//for managing workflow instances
 public class WorkflowInstance
 {
     public string Id { get; set; } = string.Empty;

@@ -25,3 +25,28 @@ C:\Users\Ausu vivobook\Desktop\Infonetica_Assignment\obj\Debug\net8.0\WorkflowEn
 C:\Users\Ausu vivobook\Desktop\Infonetica_Assignment\obj\Debug\net8.0\ref\WorkflowEngine.dll
 C:\Users\Ausu vivobook\Desktop\Infonetica_Assignment\bin\Debug\net8.0\data\definitions.json
 C:\Users\Ausu vivobook\Desktop\Infonetica_Assignment\bin\Debug\net8.0\data\instances.json
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\bin\Debug\net8.0\data\definitions.json
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\bin\Debug\net8.0\data\instances.json
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\bin\Debug\net8.0\WorkflowEngine.exe
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\bin\Debug\net8.0\WorkflowEngine.deps.json
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\bin\Debug\net8.0\WorkflowEngine.runtimeconfig.json
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\bin\Debug\net8.0\WorkflowEngine.dll
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\bin\Debug\net8.0\WorkflowEngine.pdb
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\WorkflowEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\WorkflowEngine.AssemblyInfoInputs.cache
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\WorkflowEngine.AssemblyInfo.cs
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\WorkflowEngine.csproj.CoreCompileInputs.cache
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\WorkflowEngine.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\staticwebassets\msbuild.WorkflowEngine.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\staticwebassets\msbuild.build.WorkflowEngine.props
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WorkflowEngine.props
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WorkflowEngine.props
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\scopedcss\bundle\WorkflowEngine.styles.css
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\WorkflowEngine.dll
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\refint\WorkflowEngine.dll
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\WorkflowEngine.pdb
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\WorkflowEngine.genruntimeconfig.cache
+C:\Users\mrarn\OneDrive\Desktop\WorkFlowEngine\WorkFlowEngine\obj\Debug\net8.0\ref\WorkflowEngine.dll

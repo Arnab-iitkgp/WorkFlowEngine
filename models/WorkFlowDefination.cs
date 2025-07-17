@@ -1,7 +1,7 @@
 
 namespace WorkflowEngine.Models;
 
-public class WorkflowDefinition
+public class WorkflowDefinition //for creating workflow definitions
 {
     public string Id { get; set; } = string.Empty;
     public string Name { get; set; } = string.Empty;

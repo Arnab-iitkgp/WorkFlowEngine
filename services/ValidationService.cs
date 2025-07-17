@@ -24,7 +24,7 @@ public class ValidationService
             result.IsValid = false;
         }
 
-        // Check for exactly one initial state
+        // for uniwue initial state
         var initialStates = definition.States.Where(s => s.IsInitial).ToList();
         if (initialStates.Count == 0)
         {

@@ -135,5 +135,73 @@
     "actions": [],
     "createdAt": "2025-07-17T21:32:47.1440654Z",
     "description": "Another test workflow with same name"
+  },
+  {
+    "id": "7e4ec364-cd71-4e79-b548-96a58fe0df98",
+    "name": "Order2 Processing Workflow",
+    "states": [
+      {
+        "id": "created",
+        "name": "Created",
+        "isInitial": true,
+        "isFinal": false,
+        "description": "Order has been created"
+      },
+      {
+        "id": "completed",
+        "name": "Completed",
+        "isInitial": false,
+        "isFinal": true,
+        "description": "Order has been completed"
+      }
+    ],
+    "actions": [
+      {
+        "id": "complete",
+        "name": "Complete",
+        "enabled": true,
+        "fromStates": [
+          "created"
+        ],
+        "toState": "completed",
+        "description": "Complete the order"
+      }
+    ],
+    "createdAt": "2025-07-17T22:21:54.0992402Z",
+    "description": "Handles order from creation to fulfillment"
+  },
+  {
+    "id": "a236ba0b-cfa2-4b8f-8ce7-313aa0260462",
+    "name": "Order3 Processing Workflow",
+    "states": [
+      {
+        "id": "created",
+        "name": "Created",
+        "isInitial": true,
+        "isFinal": false,
+        "description": "Order has been created"
+      },
+      {
+        "id": "completed",
+        "name": "Completed",
+        "isInitial": false,
+        "isFinal": true,
+        "description": "Order has been completed"
+      }
+    ],
+    "actions": [
+      {
+        "id": "complete",
+        "name": "Complete",
+        "enabled": true,
+        "fromStates": [
+          "created"
+        ],
+        "toState": "completed",
+        "description": "Complete the order"
+      }
+    ],
+    "createdAt": "2025-07-17T22:22:29.3782824Z",
+    "description": "Handles order from creation to fulfillment"
   }
 ]
